@@ -1,0 +1,3616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/utils.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-layout">
+          <!--  -->
+          <div id="logo">
+            <img src="./assets/images/logo.png" alt="" />
+          </div>
+          <!--  -->
+          <div class="header-right">
+            <!--  -->
+            <div class="header-action">
+              <!--  -->
+              <div class="header-search">
+                <input type="text" placeholder="Từ khóa ..." />
+              </div>
+              <!--  -->
+              <div class="header-contact">
+                <div class="header-box">
+                  <div class="icon-phone-outline">
+                    <img src="./assets/images/icons/phone-outline.png" alt="" />
+                  </div>
+                  <div class="header-group">
+                    <b>Hỗ trợ đặt hàng<br /><span> 0363.842.562 </span></b>
+                  </div>
+                </div>
+                <div class="header-box">
+                  <div class="icon-phone-outline">
+                    <img src="./assets/images/icons/phone-outline.png" alt="" />
+                  </div>
+                  <div class="header-group">
+                    <b>Tư vấn kỹ thuật<br /><span> 0931.375.389 </span></b>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="header-other">
+                <div class="icon-user">
+                  <img src="./assets/images/icons/user.png" alt="" />
+                </div>
+                <div class="icon-cart">
+                  <img src="./assets/images/icons/cart.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <nav class="header-nav">
+              <li><a href="#!">Trang chủ</a></li>
+              <li>
+                <a href="#!"
+                  >Sản phẩm <img src="./assets/images/icons/chevron.png" alt=""
+                /></a>
+                <ul class="submenu">
+                  <li class="">
+                    <a href="/tay-nam-tu" title="Tay nắm tủ"> Tay nắm tủ </a>
+                    <ul class="lv2 list-group p-0 list-unstyled rounded">
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/tay-nam-thong-dung" title="Tay nắm thông dụng"
+                          >Tay nắm thông dụng</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/tay-nam-hien-dai" title="Tay nắm hiện đại"
+                          >Tay nắm hiện đại</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/tay-nam-co-dien" title="Tay nắm cổ điển"
+                          >Tay nắm cổ điển</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/tay-nam-mau-bac" title="Tay nắm màu bạc"
+                          >Tay nắm màu bạc</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/num" title="Núm">Núm</a>
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/tay-nam-dong-thau" title="Tay nắm đồng thau"
+                          >Tay nắm đồng thau</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/tay-nam-cao-cap" title="Tay nắm cao cấp"
+                          >Tay nắm cao cấp</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="/phu-kien-moc" title="Phụ kiện mộc">
+                      Phụ kiện mộc
+                    </a>
+                    <ul class="lv2 list-group p-0 list-unstyled rounded">
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a
+                          href="/phu-kien-thong-dung"
+                          title="Phụ kiện thông dụng"
+                          >Phụ kiện thông dụng</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/chi-tiet-lien-ket" title="Chi tiết liên kết"
+                          >Chi tiết liên kết</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/phu-kien-tien-ich" title="Phụ kiện tiện ích"
+                          >Phụ kiện tiện ích</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/phu-kien-giuong" title="Phụ kiện giường"
+                          >Phụ kiện giường</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/phu-kien-cua-di" title="Phụ kiện cửa đi"
+                          >Phụ kiện cửa đi</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="/phu-kien-cnc" title="Phụ kiện CNC">
+                      Phụ kiện CNC
+                    </a>
+                    <ul class="lv2 list-group p-0 list-unstyled rounded">
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/mui-khoan-cat" title="Mũi khoan cắt"
+                          >Mũi khoan cắt</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/bo-mui-huynh" title="Bộ mũi huỳnh"
+                          >Bộ mũi huỳnh</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/mui-phay-cnc" title="Mũi phay CNC"
+                          >Mũi phay CNC</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/mui-router" title="Mũi router">Mũi router</a>
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/phu-kien-khac" title="Phụ kiện khác"
+                          >Phụ kiện khác</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="/phu-kien-tu-bep" title="Phụ kiện tủ bếp">
+                      Phụ kiện tủ bếp
+                    </a>
+                    <ul
+                      class="lv2 list-group p-0 list-unstyled rounded sub-right"
+                    >
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/gia-bat" title="Giá bát">Giá bát</a>
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a
+                          href="/gia-dao-thot-gia-vi"
+                          title="Giá dao thớt gia vị"
+                          >Giá dao thớt gia vị</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a
+                          href="/gia-xoong-noi-bat-dia"
+                          title="Giá xoong nồi bát đĩa"
+                          >Giá xoong nồi bát đĩa</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a
+                          href="/phu-kien-tu-bep-tren"
+                          title="Phụ kiện tủ bếp trên"
+                          >Phụ kiện tủ bếp trên</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/thung-rac" title="Thùng rác">Thùng rác</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="/khoa-cua" title="Khoá cửa"> Khoá cửa </a>
+                    <ul class="lv2 list-group p-0 list-unstyled rounded">
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/khoa-hien-dai" title="Khoá hiện đại"
+                          >Khoá hiện đại</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/khoa-co-dien" title="Khoá cổ điển"
+                          >Khoá cổ điển</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/khoa-cua-chinh" title="Khoá cửa chính"
+                          >Khoá cửa chính</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/khoa-dien-tu" title="Khoá điện tử"
+                          >Khoá điện tử</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="/phu-kien-thong-minh" title="Phụ kiện thông minh">
+                      Phụ kiện thông minh
+                    </a>
+                    <ul class="lv2 list-group p-0 list-unstyled rounded">
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/giuong-thong-minh" title="Giường thông minh"
+                          >Giường thông minh</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/ban-thong-minh" title="Bàn thông minh"
+                          >Bàn thông minh</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a
+                          href="/tien-ich-thong-minh"
+                          title="Tiện ích thông minh"
+                          >Tiện ích thông minh</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="/nhom-nep-trang-tri" title="Nhôm, nẹp trang trí">
+                      Nhôm, nẹp trang trí
+                    </a>
+                    <ul class="lv2 list-group p-0 list-unstyled rounded">
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/nhom-canh-kinh" title="Nhôm cánh kính"
+                          >Nhôm cánh kính</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/nhom-nep" title="Nhôm nẹp">Nhôm nẹp</a>
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/nep-inox" title="Nẹp inox">Nẹp inox</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="/led-trang-tri" title="Led trang trí">
+                      Led trang trí
+                    </a>
+                    <ul
+                      class="lv2 list-group p-0 list-unstyled rounded sub-right"
+                    >
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/led-trang-tri" title="Led trang trí"
+                          >Led trang trí</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/led-ray-nam-cham" title="Led ray nam châm"
+                          >Led ray nam châm</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/led-chieu-sang" title="Led chiếu sáng"
+                          >Led chiếu sáng</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="/dung-cu-tien-ich" title="Dụng cụ tiện ích">
+                      Dụng cụ tiện ích
+                    </a>
+                    <ul class="lv2 list-group p-0 list-unstyled rounded">
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/dung-cu-cam-tay" title="Dụng cụ cầm tay"
+                          >Dụng cụ cầm tay</a
+                        >
+                      </li>
+                      <li class="level2 pr-lg-2 pl-2">
+                        <a href="/may-gia-cong" title="Máy gia công"
+                          >Máy gia công</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="/chan-sofa" title="Chân sofa"> Chân sofa </a>
+                  </li>
+                  <li class="">
+                    <a href="/san-pham-decor" title="Sản phẩm décor">
+                      Sản phẩm décor
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="/hang-thanh-ly" title="Hàng thanh lý">
+                      Hàng thanh lý
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#!">Nội thất ORDER</a></li>
+              <li><a href="#!">Giới thiệu</a></li>
+              <li><a href="#!">Tin tức</a></li>
+              <li><a href="#!">Liên hệ</a></li>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- slide -->
+    <section id="slider">
+      <div class="container">
+        <div class="slider-layout">
+          <div class="col slider-main">
+            <div class="swiper slider-1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/images/banner/banner-1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/banner/banner-2.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/banner/banner-3.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="col idea-product">
+            <div class="title">Ý TƯỞNG - SẢN PHẨM</div>
+            <div class="blog-container">
+              <article class="blog-item">
+                <a
+                  href="/cac-y-tuong-trang-tri-nha-dep-ma-tiet-kiem"
+                  class="blog-link"
+                  title="Các ý tưởng trang trí nhà đẹp mà tiết kiệm"
+                >
+                  <span class="blog-image-container">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/medium/100/448/001/articles/4.png?v=1646023855237"
+                      decoding="async"
+                      alt="Các ý tưởng trang trí nhà đẹp mà tiết kiệm"
+                      class="blog-image"
+                    />
+                  </span>
+                </a>
+                <div class="blog-content">
+                  <h3 class="blog-title title-2">
+                    <a
+                      class="blog-title title-2-link"
+                      href="/cac-y-tuong-trang-tri-nha-dep-ma-tiet-kiem"
+                      title="Các ý tưởng trang trí nhà đẹp mà tiết kiệm"
+                      ><div class="line-2">
+                        Các ý tưởng trang trí nhà đẹp mà tiết kiệm
+                      </div></a
+                    >
+                  </h3>
+                  <div class="blog-datee">23/02/2022</div>
+                </div>
+              </article>
+              <article class="blog-item">
+                <a
+                  href="/nhung-do-decor-phong-ngu-nho-dep-don-gian"
+                  class="blog-link"
+                  title="Những đồ decor phòng ngủ nhỏ, đẹp, đơn giản"
+                >
+                  <span class="blog-image-container">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/medium/100/448/001/articles/5.png?v=1646023860207"
+                      decoding="async"
+                      alt="Những đồ decor phòng ngủ nhỏ, đẹp, đơn giản"
+                      class="blog-image"
+                    />
+                  </span>
+                </a>
+                <div class="blog-content">
+                  <h3 class="blog-title title-2">
+                    <a
+                      class="blog-title title-2-link"
+                      href="/nhung-do-decor-phong-ngu-nho-dep-don-gian"
+                      title="Những đồ decor phòng ngủ nhỏ, đẹp, đơn giản"
+                      ><div class="line-2">
+                        Những đồ decor phòng ngủ nhỏ, đẹp, đơn giản
+                      </div></a
+                    >
+                  </h3>
+                  <div class="blog-datee">23/02/2022</div>
+                </div>
+              </article>
+              <article class="blog-item">
+                <a
+                  href="/cach-bo-tri-cac-ngan-tu-bep-ngan-nap-khoa-hoc"
+                  class="blog-link"
+                  title="Cách bố trí các ngăn tủ bếp ngăn nắp, khoa học"
+                >
+                  <span class="blog-image-container">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/medium/100/448/001/articles/1.png?v=1646023848833"
+                      decoding="async"
+                      alt="Cách bố trí các ngăn tủ bếp ngăn nắp, khoa học"
+                      class="blog-image"
+                    />
+                  </span>
+                </a>
+                <div class="blog-content">
+                  <h3 class="blog-title title-2">
+                    <a
+                      class="blog-title title-2-link"
+                      href="/cach-bo-tri-cac-ngan-tu-bep-ngan-nap-khoa-hoc"
+                      title="Cách bố trí các ngăn tủ bếp ngăn nắp, khoa học"
+                      ><div class="line-2">
+                        Cách bố trí các ngăn tủ bếp ngăn nắp, khoa học
+                      </div></a
+                    >
+                  </h3>
+                  <div class="blog-datee">23/02/2022</div>
+                </div>
+              </article>
+              <article class="blog-item">
+                <a
+                  href="/top-5-cac-loai-khoa-cua-thong-dung-nha-t-ba-n-nen-bie-t"
+                  class="blog-link"
+                  title="Top 5 các loại khoá cửa thông dụng nhất bạn nên biết"
+                >
+                  <span class="blog-image-container">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/medium/100/448/001/articles/6.png?v=1646023843323"
+                      decoding="async"
+                      alt="Top 5 các loại khoá cửa thông dụng nhất bạn nên biết"
+                      class="blog-image"
+                    />
+                  </span>
+                </a>
+                <div class="blog-content">
+                  <h3 class="blog-title title-2">
+                    <a
+                      class="blog-title title-2-link"
+                      href="/top-5-cac-loai-khoa-cua-thong-dung-nha-t-ba-n-nen-bie-t"
+                      title="Top 5 các loại khoá cửa thông dụng nhất bạn nên biết"
+                      ><div class="line-2">
+                        Top 5 các loại khoá cửa thông dụng nhất bạn nên biết
+                      </div></a
+                    >
+                  </h3>
+                  <div class="blog-datee">23/02/2022</div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- feature categories -->
+    <section id="featured-categories" class="categories-section">
+      <div class="container">
+        <div class="categories-wrapper">
+          <h3 class="categories-title title">Danh mục nổi bật</h3>
+          <div class="categories-list">
+            <a class="category-item">
+              <div class="category-image-container">
+                <span class="category-image-wrapper">
+                  <img
+                    class="category-image"
+                    alt="Tay nắm cửa"
+                    src="https://bizweb.dktcdn.net/100/448/001/collections/ue23.jpg?v=1646393890180"
+                  />
+                </span>
+              </div>
+              <span class="category-name">Tay nắm cửa</span>
+            </a>
+            <a class="category-item">
+              <div class="category-image-container">
+                <span class="category-image-wrapper">
+                  <img
+                    class="category-image"
+                    alt="Phụ kiện thông minh"
+                    src="https://bizweb.dktcdn.net/100/448/001/collections/uk78.jpg?v=1646393654297"
+                  />
+                </span>
+              </div>
+              <span class="category-name">Phụ kiện thông minh</span>
+            </a>
+            <a class="category-item">
+              <div class="category-image-container">
+                <span class="category-image-wrapper">
+                  <img
+                    class="category-image"
+                    alt="Phụ kiện mộc"
+                    src="https://bizweb.dktcdn.net/100/448/001/collections/et3.jpg?v=1646393741317"
+                  />
+                </span>
+              </div>
+              <span class="category-name">Phụ kiện mộc</span>
+            </a>
+            <a class="category-item">
+              <div class="category-image-container">
+                <span class="category-image-wrapper">
+                  <img
+                    class="category-image"
+                    alt="Phụ kiện CNC"
+                    src="https://bizweb.dktcdn.net/100/448/001/collections/4.jpg?v=1645582549180"
+                  />
+                </span>
+              </div>
+              <span class="category-name">Phụ kiện CNC</span>
+            </a>
+            <a class="category-item">
+              <div class="category-image-container">
+                <span class="category-image-wrapper">
+                  <img
+                    class="category-image"
+                    alt="Nhôm nẹp trang trí"
+                    src="https://bizweb.dktcdn.net/100/448/001/collections/u3.jpg?v=1646393571853"
+                  />
+                </span>
+              </div>
+              <span class="category-name">Nhôm nẹp trang trí</span>
+            </a>
+            <a class="category-item">
+              <div class="category-image-container">
+                <span class="category-image-wrapper">
+                  <img
+                    class="category-image"
+                    alt="Khoá cửa"
+                    src="https://bizweb.dktcdn.net/100/448/001/collections/i7.jpg?v=1646393549950"
+                  />
+                </span>
+              </div>
+              <span class="category-name">Khoá cửa</span>
+            </a>
+            <a class="category-item">
+              <div class="category-image-container">
+                <span class="category-image-wrapper">
+                  <img
+                    class="category-image"
+                    alt="Led trang trí"
+                    src="https://bizweb.dktcdn.net/100/448/001/collections/7.png?v=1645582626150"
+                  />
+                </span>
+              </div>
+              <span class="category-name">Led trang trí</span>
+            </a>
+            <a class="category-item">
+              <div class="category-image-container">
+                <span class="category-image-wrapper">
+                  <img
+                    class="category-image"
+                    alt="Chân sofa"
+                    src="https://bizweb.dktcdn.net/100/448/001/collections/8.png?v=1645582641097"
+                  />
+                </span>
+              </div>
+              <span class="category-name">Chân sofa</span>
+            </a>
+            <a class="category-item">
+              <div class="category-image-container">
+                <span class="category-image-wrapper">
+                  <img
+                    class="category-image"
+                    alt="Dụng cụ tiện ích"
+                    src="https://bizweb.dktcdn.net/100/448/001/collections/9.jpg?v=1645582655043"
+                  />
+                </span>
+              </div>
+              <span class="category-name">Dụng cụ tiện ích</span>
+            </a>
+            <a class="category-item">
+              <div class="category-image-container">
+                <span class="category-image-wrapper">
+                  <img
+                    class="category-image"
+                    alt="Sản phẩm decor"
+                    src="https://bizweb.dktcdn.net/100/448/001/collections/ytyk.jpg?v=1646393503437"
+                  />
+                </span>
+              </div>
+              <span class="category-name">Sản phẩm decor</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner section -->
+    <section id="banner-section" class="banner-section mt-3">
+      <div class="container">
+        <div class="banner-row">
+          <div class="banner-item">
+            <a
+              class="banner-link"
+              href="/flash-sale-khuyen-mai"
+              title="Mẫu tay nắm đẹp"
+            >
+              <img
+                class="banner-image"
+                src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/banner3_1.jpg?1681309351222"
+                alt="Mẫu tay nắm đẹp"
+              />
+            </a>
+          </div>
+          <div class="banner-item">
+            <a class="banner-link" href="/san-pham-moi" title="Sản phẩm mới">
+              <img
+                class="banner-image"
+                src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/banner3_2.jpg?1681309351222"
+                alt="Sản phẩm mới"
+              />
+            </a>
+          </div>
+          <div class="banner-item">
+            <a
+              class="banner-link"
+              href="/san-pham-noi-bat"
+              title="Sản phẩm HOT"
+            >
+              <img
+                class="banner-image"
+                src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/banner3_3.jpg?1681309351222"
+                alt="Sản phẩm HOT"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- flash sell -->
+    <section id="flash-sale-section" class="flash-sale-section pt-3">
+      <div class="container">
+        <div class="flash-sale-wrapper rounded">
+          <div class="flash-sale-header row">
+            <div class="flash-sale-title-container col-12 col-lg-6">
+              <h2 class="flash-sale-title title">
+                <a
+                  class="flash-sale-link"
+                  href="flash-sale-khuyen-mai"
+                  title="Flash sale/Khuyến mãi"
+                >
+                  <img
+                    alt="Flash sale/Khuyến mãi"
+                    src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/flash.gif?1681309351222"
+                  />
+                  Flash sale/Khuyến mãi
+                </a>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="product-slider-wrapper">
+          <div class="swiper slider-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product-item">
+                  <div class="product-sale-label discount discount">
+                    <span>-49%</span>
+                  </div>
+                  <a
+                    href="/kmtd51-phu-kien-cua-lua-giam-chan-cho-tu-ao"
+                    class="product-thumb"
+                    title="KMTD51 - Phụ kiện cửa lùa giảm chấn cho tủ áo"
+                  >
+                    <div class="product-image-wrapper">
+                      <img
+                        src="//bizweb.dktcdn.net/thumb/1024x1024/100/448/001/products/rtuj56u56.jpg?v=1705070941850"
+                        alt="KMTD51 - Phụ kiện cửa lùa giảm chấn cho tủ áo"
+                        class="product-image"
+                      />
+                    </div>
+                  </a>
+                  <div class="product-info">
+                    <h3 class="product-title">
+                      <a
+                        href="/kmtd51-phu-kien-cua-lua-giam-chan-cho-tu-ao"
+                        class="product-title-link title-2 line-1"
+                        title="KMTD51 - Phụ kiện cửa lùa giảm chấn cho tủ áo"
+                      >
+                        KMTD51 - Phụ kiện cửa lùa giảm chấn cho tủ áo
+                      </a>
+                    </h3>
+                    <div class="product-price">
+                      <span class="product-special-price price">550.000₫</span>
+                      <del class="product-old-price old-price">1.087.000₫</del>
+                    </div>
+                    <div class="product-stock">
+                      <div class="stock-status">Còn hàng</div>
+                      <div class="stock-remaining" style="width: 100%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="product-item">
+                  <div class="product-sale-label discount discount">
+                    <span>-36%</span>
+                  </div>
+                  <a
+                    href="/km1-chot-lien-ket-am"
+                    class="product-thumb"
+                    title="KMTD133- Chốt liên kết âm"
+                  >
+                    <div class="product-image-wrapper">
+                      <img
+                        src="//bizweb.dktcdn.net/thumb/1024x1024/100/448/001/products/ege-c413be22-d4c7-41c8-b64b-77b232650d01-b32d235c-09f8-4479-a557-ed486b207552.jpg?v=1684933716387"
+                        alt="KMTD133- Chốt liên kết âm"
+                        class="product-image"
+                      />
+                    </div>
+                  </a>
+                  <div class="product-info">
+                    <h3 class="product-title">
+                      <a
+                        href="/km1-chot-lien-ket-am"
+                        class="product-title-link title-2 line-1"
+                        title="KMTD133- Chốt liên kết âm"
+                      >
+                        KMTD133- Chốt liên kết âm
+                      </a>
+                    </h3>
+                    <div class="product-price">
+                      <span class="product-special-price price">1.590₫</span>
+                      <del class="product-old-price old-price">2.500₫</del>
+                    </div>
+                    <div class="product-stock">
+                      <div class="stock-status">Còn hàng</div>
+                      <div class="stock-remaining" style="width: 100%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="product-item">
+                  <div class="product-sale-label discount discount">
+                    <span>-52%</span>
+                  </div>
+                  <a
+                    href="/kmmc01-sung-ban-no-nhua-cam-chot"
+                    class="product-thumb"
+                    title="KMMC01 - Súng bắn nở nhựa cam chốt"
+                  >
+                    <div class="product-image-wrapper">
+                      <img
+                        src="//bizweb.dktcdn.net/thumb/1024x1024/100/448/001/products/image00001-164f6c10-59c5-4ef0-9879-1bd9024cc84d-efe0ab0a-8270-4d3e-b098-4251005a7653.jpg?v=1684934074290"
+                        alt="KMMC01 - Súng bắn nở nhựa cam chốt"
+                        class="product-image"
+                      />
+                    </div>
+                  </a>
+                  <div class="product-info">
+                    <h3 class="product-title">
+                      <a
+                        href="/kmmc01-sung-ban-no-nhua-cam-chot"
+                        class="product-title-link title-2 line-1"
+                        title="KMMC01 - Súng bắn nở nhựa cam chốt"
+                      >
+                        KMMC01 - Súng bắn nở nhựa cam chốt
+                      </a>
+                    </h3>
+                    <div class="product-price">
+                      <span class="product-special-price price"
+                        >1.200.000₫</span
+                      >
+                      <del class="product-old-price old-price">2.513.500₫</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="product-item">
+                  <div class="product-sale-label discount discount">
+                    <span>-38%</span>
+                  </div>
+                  <a
+                    href="/td49-keo-mau-xoa-xuoc"
+                    class="product-thumb"
+                    title="TD49 - Keo màu xóa xước"
+                  >
+                    <div class="product-image-wrapper">
+                      <img
+                        src="//bizweb.dktcdn.net/thumb/1024x1024/100/448/001/products/132194266-1049661932203345-105651048287008042-n.jpg?v=1646887663857"
+                        alt="TD49 - Keo màu xóa xước"
+                        class="product-image"
+                      />
+                    </div>
+                  </a>
+                  <div class="product-info">
+                    <h3 class="product-title">
+                      <a
+                        href="/td49-keo-mau-xoa-xuoc"
+                        class="product-title-link title-2 line-1"
+                        title="TD49 - Keo màu xóa xước"
+                      >
+                        TD49 - Keo màu xóa xước
+                      </a>
+                    </h3>
+                    <div class="product-price">
+                      <span class="product-special-price price">5.000₫</span>
+                      <del class="product-old-price old-price">8.000₫</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="product-item">
+                  <div class="product-sale-label discount discount">
+                    <span>-47%</span>
+                  </div>
+                  <a
+                    href="/kmtd04-piton"
+                    class="product-thumb"
+                    title="KMTD04- Piton"
+                  >
+                    <div class="product-image-wrapper">
+                      <img
+                        src="//bizweb.dktcdn.net/thumb/1024x1024/100/448/001/products/image00004-c7697d94-857f-4bcb-a852-2aaada7d285c-313e855f-7a70-40e1-8e14-9a1136180a02.jpg?v=1684933809760"
+                        alt="KMTD04- Piton"
+                        class="product-image"
+                      />
+                    </div>
+                  </a>
+                  <div class="product-info">
+                    <h3 class="product-title">
+                      <a
+                        href="/kmtd04-piton"
+                        class="product-title-link title-2 line-1"
+                        title="KMTD04- Piton"
+                      >
+                        KMTD04- Piton
+                      </a>
+                    </h3>
+                    <div class="product-price">
+                      <span class="product-special-price price">10.000₫</span>
+                      <del class="product-old-price old-price">19.000₫</del>
+                    </div>
+                    <div class="product-stock">
+                      <div class="stock-status">Còn hàng</div>
+                      <div class="stock-remaining" style="width: 100%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="product-item">
+                  <a
+                    href="/kmtn20-tay-nam"
+                    class="product-thumb"
+                    title="KMTN20 -Tay nắm"
+                  >
+                    <div class="product-image-wrapper">
+                      <img
+                        src="//bizweb.dktcdn.net/thumb/1024x1024/100/448/001/products/0image00009-421172ce-8f14-4ffc-b76e-e59ce54485c0-ad72d9bc-245a-4858-8fe0-25c90f4db039.jpg?v=1684933943550"
+                        alt="KMTN20 -Tay nắm"
+                        class="product-image"
+                      />
+                    </div>
+                  </a>
+                  <div class="product-info">
+                    <h3 class="product-title">
+                      <a
+                        href="/kmtn20-tay-nam"
+                        class="product-title-link title-2 line-1"
+                        title="KMTN20 -Tay nắm"
+                      >
+                        KMTN20 -Tay nắm
+                      </a>
+                    </h3>
+                    <div class="product-price">
+                      <span class="product-regular-price">28.000₫</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="product-item">
+                  <div class="product-sale-label discount discount">
+                    <span>-41%</span>
+                  </div>
+                  <a
+                    href="/td72-giay-lot-tu-bep"
+                    class="product-thumb"
+                    title="TD72 - Giấy lót tủ bếp"
+                  >
+                    <div class="product-image-wrapper">
+                      <img
+                        src="//bizweb.dktcdn.net/thumb/1024x1024/100/448/001/products/image00003.jpg?v=1646886473400"
+                        alt="TD72 - Giấy lót tủ bếp"
+                        class="product-image"
+                      />
+                    </div>
+                  </a>
+                  <div class="product-info">
+                    <h3 class="product-title">
+                      <a
+                        href="/td72-giay-lot-tu-bep"
+                        class="product-title-link title-2 line-1"
+                        title="TD72 - Giấy lót tủ bếp"
+                      >
+                        TD72 - Giấy lót tủ bếp
+                      </a>
+                    </h3>
+                    <div class="product-price">
+                      <span class="product-special-price price">20.000₫</span>
+                      <del class="product-old-price old-price">34.000₫</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- collection -->
+    <section id="cate_2">
+      <div class="container">
+        <div class="collection-wrapper">
+          <h3 class="collection-header title">Bộ sưu tập</h3>
+          <div class="collection-items">
+            <div class="collection-item">
+              <a
+                href="/tay-nam-cao-cap"
+                title="Tay nắm"
+                class="collection-link"
+              >
+                <div class="collection-info">
+                  <p class="collection-title title-2">Tay nắm</p>
+                  <p class="collection-count">( 129 Sản phẩm )</p>
+                </div>
+                <div class="collection-images">
+                  <div class="collection-image">
+                    <img
+                      alt="TN147_Tay Nắm"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/7ik.jpg?v=1718471536090"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="TN145- Tay nắm"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/54y54-b8af2d0f-92df-487f-be35-219b462025f0.jpg?v=1716472795230"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="TN144- Tay Nắm"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/329526567-893054758608967-8125868765568217819-n-1-1704359426640.jpg?v=1704359431853"
+                    />
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="collection-item">
+              <a href="/chan-sofa" title="Chân sofa" class="collection-link">
+                <div class="collection-info">
+                  <p class="collection-title title-2">Chân sofa</p>
+                  <p class="collection-count">( 38 Sản phẩm )</p>
+                </div>
+                <div class="collection-images">
+                  <div class="collection-image">
+                    <img
+                      alt="DC40 - Chân decor"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/468b4daa-6621-4617-aeb0-0ccdd068500a.jpg?v=1647860737183"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="DC20 - Chân decor"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/42596e10-9bc4-4041-aecf-f6dca3486f40.jpg?v=1647860736387"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="DC19 - Chân decor"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/07d13be7-fd7c-4de2-85fc-14e4c427811e.jpg?v=1647860736307"
+                    />
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="collection-item">
+              <a href="/phu-kien-cnc" title="Mũi CNC" class="collection-link">
+                <div class="collection-info">
+                  <p class="collection-title title-2">Mũi CNC</p>
+                  <p class="collection-count">( 58 Sản phẩm )</p>
+                </div>
+                <div class="collection-images">
+                  <div class="collection-image">
+                    <img
+                      alt="CNC30 - Bộ chỉ nổi"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/95d1b3bd-4b1e-4a0e-8c53-fe4baac23c74.jpg?v=1647854819567"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="CNC28 - Bộ huỳnh cánh 3 mũi"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/c31805f8-2383-451a-87e8-dd945ddde167.jpg?v=1647854819433"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="CNC61 - Mũi huỳnh Arden"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/1f6c97d0-028d-4cf3-92b6-22538f25d6b4.jpg?v=1695749291270"
+                    />
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="collection-item">
+              <a href="/khoa-cua" title="Khóa cửa" class="collection-link">
+                <div class="collection-info">
+                  <p class="collection-title title-2">Khóa cửa</p>
+                  <p class="collection-count">( 52 Sản phẩm )</p>
+                </div>
+                <div class="collection-images">
+                  <div class="collection-image">
+                    <img
+                      alt="MOD96- Khóa cửa đi"
+                      src="//bizweb.dktcdn.net/thumb/large/assets/themes_support/noimage.gif"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="MOD95- Khóa cửa"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/86o8.jpg?v=1705742917807"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="MOD56- Khóa cửa đi"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/oko-1702262325226.jpg?v=1702262348793"
+                    />
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="collection-item">
+              <a
+                href="/nhom-nep-trang-tri"
+                title="Nẹp trang trí"
+                class="collection-link"
+              >
+                <div class="collection-info">
+                  <p class="collection-title title-2">Nẹp trang trí</p>
+                  <p class="collection-count">( 31 Sản phẩm )</p>
+                </div>
+                <div class="collection-images">
+                  <div class="collection-image">
+                    <img
+                      alt="N28- Bộ pk cửa xếp lùa 1 cánh giảm chấn nhôm SLIM"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/pk-canh-lua-giam-chan-2-chieu-60.jpg?v=1658628069043"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="MOD-I Nẹp inox cuộn trang trí"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/8l8998.jpg?v=1653321159240"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="MOD-V Nẹp ốp góc trang trí"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/g5.jpg?v=1653320567490"
+                    />
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="collection-item">
+              <a
+                href="/phu-kien-thong-minh"
+                title="Phụ kiện thông minh"
+                class="collection-link"
+              >
+                <div class="collection-info">
+                  <p class="collection-title title-2">Phụ kiện thông minh</p>
+                  <p class="collection-count">( 64 Sản phẩm )</p>
+                </div>
+                <div class="collection-images">
+                  <div class="collection-image">
+                    <img
+                      alt="TM02 - Chân bàn nâng hạ"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/d94c6db4-a5cc-46d6-8043-31f5b757be4f.jpg?v=1647855767040"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="TM57- Bản lề kiểu cửa xe buýt"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/7e2af55b-50fd-4c4b-8b5d-23829e561d2a.jpg?v=1647855770943"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="TM53- Ray bàn kéo 3 tầng chịu lực"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/fght.jpg?v=1647402384673"
+                    />
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="collection-item">
+              <a
+                href="/led-trang-tri"
+                title="Led trang trí"
+                class="collection-link"
+              >
+                <div class="collection-info">
+                  <p class="collection-title title-2">Led trang trí</p>
+                  <p class="collection-count">( 17 Sản phẩm )</p>
+                </div>
+                <div class="collection-images">
+                  <div class="collection-image">
+                    <img
+                      alt="LED18- Đầu nối 0,2-1 (đấu LED 12V)"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/212.jpg?v=1653971581097"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="LED17- Đầu nối dây 1-1,5"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/quewq.jpg?v=1653971536697"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="LED16 - Ống co nhiệt nối dây điện"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/ewrue.jpg?v=1647250559600"
+                    />
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="collection-item">
+              <a
+                href="/phu-kien-moc"
+                title="Phụ kiện mộc"
+                class="collection-link"
+              >
+                <div class="collection-info">
+                  <p class="collection-title title-2">Phụ kiện mộc</p>
+                  <p class="collection-count">( 89 Sản phẩm )</p>
+                </div>
+                <div class="collection-images">
+                  <div class="collection-image">
+                    <img
+                      alt="MOD67- Khóa cửa đi bọc da cao cấp"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/89p89.jpg?v=1659922746430"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="TD17 - Chốt cam Rafix"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/image00004-374b1cd2-85ab-4cec-9f62-38e20648ca32.jpg?v=1691638850237"
+                    />
+                  </div>
+                  <div class="collection-image">
+                    <img
+                      alt="TD08- Cam 3 thành phần loại A"
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/7f57ab38-6900-43c8-9936-67f97ae14fab.jpg?v=1647855083457"
+                    />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product 1 -->
+    <section id="product_1">
+      <div class="container">
+        <div class="product-section">
+          <h2 class="product-header title">
+            <a href="tay-nam-tu" title="Tay Nắm Tủ">Tay Nắm Tủ</a>
+          </h2>
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn147-tay-nam"
+                  class="product-link"
+                  title="TN147_Tay Nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/7ik.jpg?v=1718471536090"
+                      alt="TN147_Tay Nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn147-tay-nam" title="TN147_Tay Nắm"
+                      >TN147_Tay Nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">167.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn145-tay-nam"
+                  class="product-link"
+                  title="TN145- Tay nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/54y54-b8af2d0f-92df-487f-be35-219b462025f0.jpg?v=1716472795230"
+                      alt="TN145- Tay nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn145-tay-nam" title="TN145- Tay nắm"
+                      >TN145- Tay nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">39.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn144-tay-nam"
+                  class="product-link"
+                  title="TN144- Tay Nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/329526567-893054758608967-8125868765568217819-n-1-1704359426640.jpg?v=1704359431853"
+                      alt="TN144- Tay Nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn144-tay-nam" title="TN144- Tay Nắm"
+                      >TN144- Tay Nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">45.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn13b-tay-nam"
+                  class="product-link"
+                  title="TN130B- TAY NẮM"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/t5u5u-f79657e9-6a99-464a-a015-e1a4532317df.jpg?v=1703751693613"
+                      alt="TN130B- TAY NẮM"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn13b-tay-nam" title="TN130B- TAY NẮM"
+                      >TN130B- TAY NẮM</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">50.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn05a-tay-nam"
+                  class="product-link"
+                  title="TN05A- Tay nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/46u56.jpg?v=1691547974160"
+                      alt="TN05A- Tay nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn05a-tay-nam" title="TN05A- Tay nắm"
+                      >TN05A- Tay nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">34.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn141-tay-nam"
+                  class="product-link"
+                  title="TN133- Tay nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/5ui67.jpg?v=1668831897367"
+                      alt="TN133- Tay nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn141-tay-nam" title="TN133- Tay nắm"
+                      >TN133- Tay nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">89.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn139-tay-nam"
+                  class="product-link"
+                  title="TN139- Tay nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/3r23y5.jpg?v=1668831779403"
+                      alt="TN139- Tay nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn139-tay-nam" title="TN139- Tay nắm"
+                      >TN139- Tay nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">89.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn140-tay-nam"
+                  class="product-link"
+                  title="TN140- Tay nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/6u65-3ea2c257-cd26-4608-ae85-54767a87111f.jpg?v=1670729756377"
+                      alt="TN140- Tay nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn140-tay-nam" title="TN140- Tay nắm"
+                      >TN140- Tay nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">50.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn138-tay-nam"
+                  class="product-link"
+                  title="TN138- Tay nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/ue12-6480dd5b-6be1-4e61-99a2-9ae83e3b8505.jpg?v=1668829782437"
+                      alt="TN138- Tay nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn138-tay-nam" title="TN138- Tay nắm"
+                      >TN138- Tay nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">28.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn137-tay-nam"
+                  class="product-link"
+                  title="TN137- Tay nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/ytut.jpg?v=1668829722877"
+                      alt="TN137- Tay nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn137-tay-nam" title="TN137- Tay nắm"
+                      >TN137- Tay nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">28.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn136-tay-nam"
+                  class="product-link"
+                  title="TN136- Tay nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/d14bef99c76c0132587d.jpg?v=1691638370260"
+                      alt="TN136- Tay nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn136-tay-nam" title="TN136- Tay nắm"
+                      >TN136- Tay nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">34.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/tn134-tay-nam"
+                  class="product-link"
+                  title="TN134- Tay nắm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/8db45a6d7298b4c6ed89.jpg?v=1691638340230"
+                      alt="TN134- Tay nắm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/tn134-tay-nam" title="TN134- Tay nắm"
+                      >TN134- Tay nắm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">23.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner -->
+    <section id="banner-section" class="banner-section mt-3">
+      <div class="container">
+        <div class="banner-row">
+          <div class="banner-item">
+            <a
+              class="banner-link"
+              href="/flash-sale-khuyen-mai"
+              title="Mẫu tay nắm đẹp"
+            >
+              <img
+                class="banner-image"
+                src="//bizweb.dktcdn.net/thumb/large/100/448/001/themes/851204/assets/banner4_1.jpg?1681309351222"
+                alt="Mẫu tay nắm đẹp"
+              />
+            </a>
+          </div>
+          <div class="banner-item">
+            <a
+              class="banner-link"
+              href="/flash-sale-khuyen-mai"
+              title="Mẫu tay nắm đẹp"
+            >
+              <img
+                class="banner-image"
+                src="//bizweb.dktcdn.net/thumb/large/100/448/001/themes/851204/assets/banner4_2.jpg?1681309351222"
+                alt="Mẫu tay nắm đẹp"
+              />
+            </a>
+          </div>
+          <div class="banner-item">
+            <a class="banner-link" href="/san-pham-moi" title="Sản phẩm mới">
+              <img
+                class="banner-image"
+                src="//bizweb.dktcdn.net/thumb/large/100/448/001/themes/851204/assets/banner4_3.jpg?1681309351222"
+                alt="Sản phẩm mới"
+              />
+            </a>
+          </div>
+          <div class="banner-item">
+            <a
+              class="banner-link"
+              href="/san-pham-noi-bat"
+              title="Sản phẩm HOT"
+            >
+              <img
+                class="banner-image"
+                src="//bizweb.dktcdn.net/thumb/large/100/448/001/themes/851204/assets/banner4_4.jpg?1681309351222"
+                alt="Sản phẩm HOT"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product 2 -->
+    <section id="product_2">
+      <div class="container">
+        <div class="product-section">
+          <h2 class="product-header title">
+            <a href="phu-kien-moc" title="Phụ Kiện Mộc">Phụ Kiện Mộc</a>
+          </h2>
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-10%</span></div>
+                <a
+                  href="/td84-khoa-cua-di-02"
+                  class="product-link"
+                  title="MOD67- Khóa cửa đi bọc da cao cấp"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/89p89.jpg?v=1659922746430"
+                      alt="MOD67- Khóa cửa đi bọc da cao cấp"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/td84-khoa-cua-di-02"
+                      title="MOD67- Khóa cửa đi bọc da cao cấp"
+                      >MOD67- Khóa cửa đi bọc da cao cấp</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">1.223.000₫</span>
+                    <del class="price-old old-price">1.359.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-10%</span></div>
+                <a
+                  href="/td17-chot-cam-rafix"
+                  class="product-link"
+                  title="TD17 - Chốt cam Rafix"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/image00004-374b1cd2-85ab-4cec-9f62-38e20648ca32.jpg?v=1691638850237"
+                      alt="TD17 - Chốt cam Rafix"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/td17-chot-cam-rafix" title="TD17 - Chốt cam Rafix"
+                      >TD17 - Chốt cam Rafix</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">889.000₫</span>
+                    <del class="price-old old-price">988.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-29%</span></div>
+                <a
+                  href="/td08-cam-3-thanh-phan-loai-a"
+                  class="product-link"
+                  title="TD08- Cam 3 thành phần loại A"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/7f57ab38-6900-43c8-9936-67f97ae14fab.jpg?v=1647855083457"
+                      alt="TD08- Cam 3 thành phần loại A"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/td08-cam-3-thanh-phan-loai-a"
+                      title="TD08- Cam 3 thành phần loại A"
+                      >TD08- Cam 3 thành phần loại A</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">1.340₫</span>
+                    <del class="price-old old-price">1.900₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-10%</span></div>
+                <a
+                  href="/td97-khoa-tu-van-tay"
+                  class="product-link"
+                  title="TD97- Khóa tủ vân tay"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/34t.jpg?v=1706518315483"
+                      alt="TD97- Khóa tủ vân tay"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/td97-khoa-tu-van-tay"
+                      title="TD97- Khóa tủ vân tay"
+                      >TD97- Khóa tủ vân tay</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">500.000₫</span>
+                    <del class="price-old old-price">556.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-20%</span></div>
+                <a
+                  href="/td81-chan-cua-thong-minh"
+                  class="product-link"
+                  title="TD81- Chặn cửa thông minh"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/image00010-06914d3d-3412-4ce5-9efd-5d680da90330.jpg?v=1648259409737"
+                      alt="TD81- Chặn cửa thông minh"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/td81-chan-cua-thong-minh"
+                      title="TD81- Chặn cửa thông minh"
+                      >TD81- Chặn cửa thông minh</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">167.000₫</span>
+                    <del class="price-old old-price">210.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-19%</span></div>
+                <a
+                  href="/td66-pk-cua-di-xep-lua"
+                  class="product-link"
+                  title="TD66 - PK cửa đi xếp lùa"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/82530897-f026-42e5-8027-59a59281eebb.jpg?v=1647855087417"
+                      alt="TD66 - PK cửa đi xếp lùa"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/td66-pk-cua-di-xep-lua"
+                      title="TD66 - PK cửa đi xếp lùa"
+                      >TD66 - PK cửa đi xếp lùa</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">750.000₫</span>
+                    <del class="price-old old-price">927.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/td71-pk-vach-cua-gap-2"
+                  class="product-link"
+                  title="TD71 - PK vách, cửa gấp lùa"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/bde6393f-0312-4fa3-a59b-16f3f23b759a.jpg?v=1647855087730"
+                      alt="TD71 - PK vách, cửa gấp lùa"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/td71-pk-vach-cua-gap-2"
+                      title="TD71 - PK vách, cửa gấp lùa"
+                      >TD71 - PK vách, cửa gấp lùa</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-contact contact">Liên hệ</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-14%</span></div>
+                <a
+                  href="/td44-nut-nhan-tipon"
+                  class="product-link"
+                  title="TD44 - Nút nhấn Tipon"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/image00003-4e151265-e89e-4e1d-a3ef-fb8fac5d6d95.jpg?v=1648257724397"
+                      alt="TD44 - Nút nhấn Tipon"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/td44-nut-nhan-tipon" title="TD44 - Nút nhấn Tipon"
+                      >TD44 - Nút nhấn Tipon</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">12.000₫</span>
+                    <del class="price-old old-price">14.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-11%</span></div>
+                <a
+                  href="/td51-phu-kien-cua-lua-giam-chan"
+                  class="product-link"
+                  title="TD51 - Phụ kiện cửa lùa giảm chấn cho tủ áo"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/cfc1250d440bb455ed1a.jpg?v=1658115014340"
+                      alt="TD51 - Phụ kiện cửa lùa giảm chấn cho tủ áo"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/td51-phu-kien-cua-lua-giam-chan"
+                      title="TD51 - Phụ kiện cửa lùa giảm chấn cho tủ áo"
+                      >TD51 - Phụ kiện cửa lùa giảm chấn cho tủ áo</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">39.000₫</span>
+                    <del class="price-old old-price">44.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-28%</span></div>
+                <a
+                  href="/td61-ban-le-am-cua-di"
+                  class="product-link"
+                  title="TD61 - Bản lề âm cửa đi"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/1d817fa6-e6fc-49cf-9872-9ca4b2fcf8d4.jpg?v=1647855087063"
+                      alt="TD61 - Bản lề âm cửa đi"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/td61-ban-le-am-cua-di"
+                      title="TD61 - Bản lề âm cửa đi"
+                      >TD61 - Bản lề âm cửa đi</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">312.000₫</span>
+                    <del class="price-old old-price">433.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-50%</span></div>
+                <a
+                  href="/td35-chot-lien-ket-u"
+                  class="product-link"
+                  title="TD35 - Chốt liên kết U"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/bf22062d-4fc6-4b2a-921c-c83e7d2345a1.jpg?v=1647855085477"
+                      alt="TD35 - Chốt liên kết U"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/td35-chot-lien-ket-u"
+                      title="TD35 - Chốt liên kết U"
+                      >TD35 - Chốt liên kết U</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">1.000₫</span>
+                    <del class="price-old old-price">2.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/td32-bo-goc-giuong"
+                  class="product-link"
+                  title="TD32 - Bo góc giường"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/image00014-3af159ab-aa9f-4586-9016-eb7996f3e1c4.jpg?v=1656725346217"
+                      alt="TD32 - Bo góc giường"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/td32-bo-goc-giuong" title="TD32 - Bo góc giường"
+                      >TD32 - Bo góc giường</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">67.000₫</span>
+                    <del class="price-old old-price">82.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product 3 -->
+    <section id="product_3">
+      <div class="container">
+        <div class="product-section">
+          <h2 class="product-header title">
+            <a href="phu-kien-cnc" title="Phụ Kiện CNC">Phụ Kiện CNC</a>
+          </h2>
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-25%</span></div>
+                <a
+                  href="/cnc30-bo-chi-noi"
+                  class="product-link"
+                  title="CNC30 - Bộ chỉ nổi"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/95d1b3bd-4b1e-4a0e-8c53-fe4baac23c74.jpg?v=1647854819567"
+                      alt="CNC30 - Bộ chỉ nổi"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/cnc30-bo-chi-noi" title="CNC30 - Bộ chỉ nổi"
+                      >CNC30 - Bộ chỉ nổi</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">1.223.000₫</span>
+                    <del class="price-old old-price">1.631.300₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/cnc28-bo-huynh-canh-3-mui"
+                  class="product-link"
+                  title="CNC28 - Bộ huỳnh cánh 3 mũi"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/c31805f8-2383-451a-87e8-dd945ddde167.jpg?v=1647854819433"
+                      alt="CNC28 - Bộ huỳnh cánh 3 mũi"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/cnc28-bo-huynh-canh-3-mui"
+                      title="CNC28 - Bộ huỳnh cánh 3 mũi"
+                      >CNC28 - Bộ huỳnh cánh 3 mũi</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">889.000₫</span>
+                    <del class="price-old old-price">1.086.800₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/cnc61-mui-huynh-arden"
+                  class="product-link"
+                  title="CNC61 - Mũi huỳnh Arden"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/1f6c97d0-028d-4cf3-92b6-22538f25d6b4.jpg?v=1695749291270"
+                      alt="CNC61 - Mũi huỳnh Arden"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/cnc61-mui-huynh-arden"
+                      title="CNC61 - Mũi huỳnh Arden"
+                      >CNC61 - Mũi huỳnh Arden</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">690.000₫</span>
+                    <del class="price-old old-price">843.700₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/cnc55-mui-soi-tay-moc-j"
+                  class="product-link"
+                  title="CNC55 - Mũi soi tay móc J"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/e18b9fd6-4e5d-42da-94f2-77089cf31569.jpg?v=1647854821257"
+                      alt="CNC55 - Mũi soi tay móc J"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/cnc55-mui-soi-tay-moc-j"
+                      title="CNC55 - Mũi soi tay móc J"
+                      >CNC55 - Mũi soi tay móc J</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">389.000₫</span>
+                    <del class="price-old old-price">476.300₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-49%</span></div>
+                <a
+                  href="/cnc29-tem-polyme"
+                  class="product-link"
+                  title="CNC29 -Tem polyme"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/image00001-743948e5-68aa-4941-983f-24d59c83021f.jpg?v=1646902711687"
+                      alt="CNC29 -Tem polyme"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/cnc29-tem-polyme" title="CNC29 -Tem polyme"
+                      >CNC29 -Tem polyme</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">77.000₫</span>
+                    <del class="price-old old-price">150.700₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/cnc26-bo-huynh-canh-3-mui"
+                  class="product-link"
+                  title="CNC26 - Bộ huỳnh cánh 3 mũi"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/5c6f4d2a-e60f-4a47-a5cf-9c9a7b2ea2d5.jpg?v=1647854819297"
+                      alt="CNC26 - Bộ huỳnh cánh 3 mũi"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/cnc26-bo-huynh-canh-3-mui"
+                      title="CNC26 - Bộ huỳnh cánh 3 mũi"
+                      >CNC26 - Bộ huỳnh cánh 3 mũi</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">1.278.000₫</span>
+                    <del class="price-old old-price">1.562.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-19%</span></div>
+                <a
+                  href="/cnc18-mui-phay-chi-nhon"
+                  class="product-link"
+                  title="CNC18 - Mũi phay chỉ nhọn"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/65a2566b-ae2c-46ef-8b98-ce58a1958754.jpg?v=1654918080397"
+                      alt="CNC18 - Mũi phay chỉ nhọn"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/cnc18-mui-phay-chi-nhon"
+                      title="CNC18 - Mũi phay chỉ nhọn"
+                      >CNC18 - Mũi phay chỉ nhọn</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">112.000₫</span>
+                    <del class="price-old old-price">137.500₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/cnc04-mui-2-canh-arden"
+                  class="product-link"
+                  title="CNC04 - Mũi 2 cánh Arden"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/c232da46-02dd-43da-9b05-810076503ca8.jpg?v=1647854817640"
+                      alt="CNC04 - Mũi 2 cánh Arden"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/cnc04-mui-2-canh-arden"
+                      title="CNC04 - Mũi 2 cánh Arden"
+                      >CNC04 - Mũi 2 cánh Arden</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">223.000₫</span>
+                    <del class="price-old old-price">272.800₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/cnc07-mui-bo-vien-canh"
+                  class="product-link"
+                  title="CNC07 - Mũi bo viền cánh"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/f54276d1-ff33-4c98-b0a5-09a86bb36a75.jpg?v=1647854817977"
+                      alt="CNC07 - Mũi bo viền cánh"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/cnc07-mui-bo-vien-canh"
+                      title="CNC07 - Mũi bo viền cánh"
+                      >CNC07 - Mũi bo viền cánh</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">389.000₫</span>
+                    <del class="price-old old-price">476.300₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/cnc16-mui-tay-nam-am"
+                  class="product-link"
+                  title="CNC16 - Mũi tay nắm âm"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/ad2805fa-8d62-4a59-b51f-641f5f915d40.jpg?v=1647854818527"
+                      alt="CNC16 - Mũi tay nắm âm"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/cnc16-mui-tay-nam-am"
+                      title="CNC16 - Mũi tay nắm âm"
+                      >CNC16 - Mũi tay nắm âm</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">278.000₫</span>
+                    <del class="price-old old-price">339.900₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/cnc09a-v120-150"
+                  class="product-link"
+                  title="CNC09B-V150"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/image00021-b83cf040-0004-422a-bafc-b154ff32c530.jpg?v=1647052719437"
+                      alt="CNC09B-V150"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a href="/cnc09a-v120-150" title="CNC09B-V150"
+                      >CNC09B-V150</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">245.000₫</span>
+                    <del class="price-old old-price">300.300₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <a
+                  href="/cnc01-mui-2-canh-tideway"
+                  class="product-link"
+                  title="CNC01 - Mũi 2 cánh Tideway"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/0fa1e769-ff75-43b0-92c1-4c1e2f1e507f.jpg?v=1647854817327"
+                      alt="CNC01 - Mũi 2 cánh Tideway"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2 line-1">
+                    <a
+                      href="/cnc01-mui-2-canh-tideway"
+                      title="CNC01 - Mũi 2 cánh Tideway"
+                      >CNC01 - Mũi 2 cánh Tideway</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">125.556₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product 4 -->
+    <section id="product_3">
+      <div class="container">
+        <div class="product-section">
+          <h2 class="product-header title">
+            <a href="chan-sofa" title="Chân Sofa">Chân Sofa</a>
+          </h2>
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/dc40-chan-decor-1"
+                  class="product-link"
+                  title="DC40 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/468b4daa-6621-4617-aeb0-0ccdd068500a.jpg?v=1647860737183"
+                      alt="DC40 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc40-chan-decor-1" title="DC40 - Chân decor"
+                      >DC40 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">89.000₫</span>
+                    <del class="price-old old-price">108.900₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/dc20-chan-decor-1"
+                  class="product-link"
+                  title="DC20 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/42596e10-9bc4-4041-aecf-f6dca3486f40.jpg?v=1647860736387"
+                      alt="DC20 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc20-chan-decor-1" title="DC20 - Chân decor"
+                      >DC20 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">54.000₫</span>
+                    <del class="price-old old-price">66.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-45%</span></div>
+                <a
+                  href="/dc19-chan-decor-1"
+                  class="product-link"
+                  title="DC19 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/07d13be7-fd7c-4de2-85fc-14e4c427811e.jpg?v=1647860736307"
+                      alt="DC19 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc19-chan-decor-1" title="DC19 - Chân decor"
+                      >DC19 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">29.000₫</span>
+                    <del class="price-old old-price">52.800₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-27%</span></div>
+                <a
+                  href="/dc12-chan-decor-1"
+                  class="product-link"
+                  title="DC12 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/quew.jpg?v=1655870254147"
+                      alt="DC12 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc12-chan-decor-1" title="DC12 - Chân decor"
+                      >DC12 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">62.000₫</span>
+                    <del class="price-old old-price">84.700₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-26%</span></div>
+                <a
+                  href="/dc09-chan-decor-1"
+                  class="product-link"
+                  title="DC09 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/61f1979f-0950-4625-8e9a-94d18e20995d.jpg?v=1647860735657"
+                      alt="DC09 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc09-chan-decor-1" title="DC09 - Chân decor"
+                      >DC09 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">40.000₫</span>
+                    <del class="price-old old-price">53.900₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/dc38-chan-decor-1"
+                  class="product-link"
+                  title="DC38 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/98554e32-c564-489f-a39b-dd71fa79cdf8.jpg?v=1647860737047"
+                      alt="DC38 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc38-chan-decor-1" title="DC38 - Chân decor"
+                      >DC38 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">278.000₫</span>
+                    <del class="price-old old-price">339.900₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-36%</span></div>
+                <a
+                  href="/dc01-chan-decor-1"
+                  class="product-link"
+                  title="DC01 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/06e20f9d-1b44-4391-b5c9-63cc5fd2427f.jpg?v=1651719218087"
+                      alt="DC01 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc01-chan-decor-1" title="DC01 - Chân decor"
+                      >DC01 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">35.000₫</span>
+                    <del class="price-old old-price">55.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-34%</span></div>
+                <a
+                  href="/dc02-chan-decor-1"
+                  class="product-link"
+                  title="DC02 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/9d3d6338-1dfd-4890-859d-b5a67372d9d0.jpg?v=1647860735147"
+                      alt="DC02 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc02-chan-decor-1" title="DC02 - Chân decor"
+                      >DC02 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">26.000₫</span>
+                    <del class="price-old old-price">39.600₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-21%</span></div>
+                <a
+                  href="/dc03-chan-decor-1"
+                  class="product-link"
+                  title="DC03- Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/aeeec932-0968-4cac-a8c8-937fed98449e.jpg?v=1647860735237"
+                      alt="DC03- Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc03-chan-decor-1" title="DC03- Chân decor"
+                      >DC03- Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">19.000₫</span>
+                    <del class="price-old old-price">24.200₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/dc04-chan-decor"
+                  class="product-link"
+                  title="DC04 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/38eb2a19-e2d2-4529-bf1d-377d9caa222c.jpg?v=1647860735320"
+                      alt="DC04 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc04-chan-decor" title="DC04 - Chân decor"
+                      >DC04 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">36.000₫</span>
+                    <del class="price-old old-price">44.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-18%</span></div>
+                <a
+                  href="/dc05-chan-decor"
+                  class="product-link"
+                  title="DC05 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/5053fc9b-62b7-4f6f-bc35-8d677d4e26e8.jpg?v=1647860735387"
+                      alt="DC05 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc05-chan-decor" title="DC05 - Chân decor"
+                      >DC05 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">52.000₫</span>
+                    <del class="price-old old-price">63.800₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-32%</span></div>
+                <a
+                  href="/dc06-chan-decor-1"
+                  class="product-link"
+                  title="DC06 - Chân decor"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/69bef732-6eda-459f-8006-42005d7e811d.jpg?v=1647860735463"
+                      alt="DC06 - Chân decor"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a href="/dc06-chan-decor-1" title="DC06 - Chân decor"
+                      >DC06 - Chân decor</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">24.000₫</span>
+                    <del class="price-old old-price">35.200₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product 5 -->
+    <section id="product_3" class="m_product pt-3">
+      <div class="container">
+        <div class="product-section rounded m_white_bg_module">
+          <h2 class="product-header title">
+            <a
+              class="header-link position-relative"
+              href="phu-kien-thong-minh"
+              title="Phụ Kiện Thông Minh"
+              >Phụ Kiện Thông Minh</a
+            >
+          </h2>
+          <div class="product-grid b_product_4 row m-0">
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-19%</span></div>
+                <a
+                  href="/tm02-chan-ban-nang-ha"
+                  class="product-link"
+                  title="TM02 - Chân bàn nâng hạ"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/d94c6db4-a5cc-46d6-8043-31f5b757be4f.jpg?v=1647855767040"
+                      alt="TM02 - Chân bàn nâng hạ"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm02-chan-ban-nang-ha"
+                      title="TM02 - Chân bàn nâng hạ"
+                      >TM02 - Chân bàn nâng hạ</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">3.500.000₫</span>
+                    <del class="price-old old-price">4.322.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-37%</span></div>
+                <a
+                  href="/tm57-ban-le-kieu-cua-xe-buyt"
+                  class="product-link"
+                  title="TM57- Bản lề kiểu cửa xe buýt"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/7e2af55b-50fd-4c4b-8b5d-23829e561d2a.jpg?v=1647855770943"
+                      alt="TM57- Bản lề kiểu cửa xe buýt"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm57-ban-le-kieu-cua-xe-buyt"
+                      title="TM57- Bản lề kiểu cửa xe buýt"
+                      >TM57- Bản lề kiểu cửa xe buýt</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">2.167.000₫</span>
+                    <del class="price-old old-price">3.458.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-10%</span></div>
+                <a
+                  href="/tm53-ray-3-tang-chiu-luc"
+                  class="product-link"
+                  title="TM53- Ray bàn kéo 3 tầng chịu lực"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/fght.jpg?v=1647402384673"
+                      alt="TM53- Ray bàn kéo 3 tầng chịu lực"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm53-ray-3-tang-chiu-luc"
+                      title="TM53- Ray bàn kéo 3 tầng chịu lực"
+                      >TM53- Ray bàn kéo 3 tầng chịu lực</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">4.223.000₫</span>
+                    <del class="price-old old-price">4.693.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-25%</span></div>
+                <a
+                  href="/tm67-bo-khung-giuong-nang-ha"
+                  class="product-link"
+                  title="TM67- Bộ khung giường nâng hạ"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/uk78-c7ed19e0-c198-413a-b5a7-9a4259bfb2d7.jpg?v=1669769204047"
+                      alt="TM67- Bộ khung giường nâng hạ"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm67-bo-khung-giuong-nang-ha"
+                      title="TM67- Bộ khung giường nâng hạ"
+                      >TM67- Bộ khung giường nâng hạ</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">7.889.000₫</span>
+                    <del class="price-old old-price">10.495.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-11%</span></div>
+                <a
+                  href="/tm63-nhan-mo-canh-tu-dong"
+                  class="product-link"
+                  title="TM63- Nhấn mở cánh tự động"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/36dd1ce5-488d-4bcc-ba14-f3774ac5d217.jpg?v=1647855770577"
+                      alt="TM63- Nhấn mở cánh tự động"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm63-nhan-mo-canh-tu-dong"
+                      title="TM63- Nhấn mở cánh tự động"
+                      >TM63- Nhấn mở cánh tự động</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">34.000₫</span>
+                    <del class="price-old old-price">38.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-34%</span></div>
+                <a
+                  href="/tm31-ray-ngan-keo-tu-cau-thang"
+                  class="product-link"
+                  title="TM31 - Ray ngăn kéo tủ cầu thang"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/image00001-4ba9d5f7-7321-4d97-b662-33d4083842be.jpg?v=1648435999103"
+                      alt="TM31 - Ray ngăn kéo tủ cầu thang"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm31-ray-ngan-keo-tu-cau-thang"
+                      title="TM31 - Ray ngăn kéo tủ cầu thang"
+                      >TM31 - Ray ngăn kéo tủ cầu thang</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">612.000₫</span>
+                    <del class="price-old old-price">927.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-10%</span></div>
+                <a
+                  href="/tm08-tay-nang-dat-giuong"
+                  class="product-link"
+                  title="TM08 - Tay nâng dát giường"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/17d21773-b50f-4d5e-9a0b-d4a631f984f6.jpg?v=1708449047743"
+                      alt="TM08 - Tay nâng dát giường"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm08-tay-nang-dat-giuong"
+                      title="TM08 - Tay nâng dát giường"
+                      >TM08 - Tay nâng dát giường</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">334.000₫</span>
+                    <del class="price-old old-price">372.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-19%</span></div>
+                <a
+                  href="/tm06-ray-keo-dai-mat-ban"
+                  class="product-link"
+                  title="TM06 - Ray kéo dài mặt bàn"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/e357f12e-6be5-4e2b-a9b5-b7cfa92b9b11.jpg?v=1647855767360"
+                      alt="TM06 - Ray kéo dài mặt bàn"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm06-ray-keo-dai-mat-ban"
+                      title="TM06 - Ray kéo dài mặt bàn"
+                      >TM06 - Ray kéo dài mặt bàn</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">2.112.000₫</span>
+                    <del class="price-old old-price">2.594.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-10%</span></div>
+                <a
+                  href="/tm05-phu-kien-mat-ban-xoay-gap"
+                  class="product-link"
+                  title="TM05 - Phụ kiện mặt bàn xoay gập"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/2b54c61c-1586-4e7f-8cf2-bf853151ba5f.jpg?v=1647855767237"
+                      alt="TM05 - Phụ kiện mặt bàn xoay gập"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm05-phu-kien-mat-ban-xoay-gap"
+                      title="TM05 - Phụ kiện mặt bàn xoay gập"
+                      >TM05 - Phụ kiện mặt bàn xoay gập</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">545.000₫</span>
+                    <del class="price-old old-price">606.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-10%</span></div>
+                <a
+                  href="/tm24a-ray-nang-ha-3-tang"
+                  class="product-link"
+                  title="TM24A- Ray nâng hạ 3 tầng"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/image00004-39db5667-d2af-4677-b37d-1860ce9e8b2f.jpg?v=1647402231423"
+                      alt="TM24A- Ray nâng hạ 3 tầng"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm24a-ray-nang-ha-3-tang"
+                      title="TM24A- Ray nâng hạ 3 tầng"
+                      >TM24A- Ray nâng hạ 3 tầng</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">3.278.000₫</span>
+                    <del class="price-old old-price">3.643.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-29%</span></div>
+                <a
+                  href="/tm43-bo-ga-xoay-tu-day"
+                  class="product-link"
+                  title="TM43 - Bộ gá xoay tủ dày"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/d91ec4e5-6920-4d21-a591-a00d87954fa0.jpg?v=1647855766963"
+                      alt="TM43 - Bộ gá xoay tủ dày"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm43-bo-ga-xoay-tu-day"
+                      title="TM43 - Bộ gá xoay tủ dày"
+                      >TM43 - Bộ gá xoay tủ dày</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">45.000₫</span>
+                    <del class="price-old old-price">63.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-item">
+                <div class="sale-label discount"><span>-35%</span></div>
+                <a
+                  href="/tm03-ray-chiu-luc-ban-bep"
+                  class="product-link"
+                  title="TM03 - Ray chịu lực bàn bếp"
+                >
+                  <div class="product-image">
+                    <img
+                      src="//bizweb.dktcdn.net/thumb/large/100/448/001/products/8d99e76f-a7f3-4f04-aced-2b3a38dbecc5.jpg?v=1647855767113"
+                      alt="TM03 - Ray chịu lực bàn bếp"
+                    />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h3 class="product-name title-2">
+                    <a
+                      href="/tm03-ray-chiu-luc-ban-bep"
+                      title="TM03 - Ray chịu lực bàn bếp"
+                      >TM03 - Ray chịu lực bàn bếp</a
+                    >
+                  </h3>
+                  <div class="product-price">
+                    <span class="price-current price">1.600.000₫</span>
+                    <del class="price-old old-price">2.470.000₫</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- video -->
+    <section id="video" class="blog-section pt-3">
+      <div class="container">
+        <div class="video-module">
+          <h2 class="section-title title">
+            <a
+              class="section-link position-relative"
+              href="video-review-san-pham"
+              title="Video - Review sản phẩm"
+              >Video - Review sản phẩm</a
+            >
+          </h2>
+          <div class="swiper slider-video">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="video-item">
+                  <div class="video-img">
+                    <img
+                      src="https://images6.alphacoders.com/135/1352218.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="video-title title-2">
+                    Những lưu ý khi cắt nẹp inox 304
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="video-item">
+                  <div class="video-img">
+                    <img
+                      src="https://images6.alphacoders.com/135/1352218.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="video-title title-2">
+                    Những lưu ý khi cắt nẹp inox 304
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="video-item">
+                  <div class="video-img">
+                    <img
+                      src="https://images6.alphacoders.com/135/1352218.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="video-title title-2">
+                    Những lưu ý khi cắt nẹp inox 304
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="video-item">
+                  <div class="video-img">
+                    <img
+                      src="https://images6.alphacoders.com/135/1352218.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="video-title title-2">
+                    Những lưu ý khi cắt nẹp inox 304
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="video-item">
+                  <div class="video-img">
+                    <img
+                      src="https://images6.alphacoders.com/135/1352218.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="video-title title-2">
+                    Những lưu ý khi cắt nẹp inox 304
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="video-item">
+                  <div class="video-img">
+                    <img
+                      src="https://images6.alphacoders.com/135/1352218.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="video-title title-2">
+                    Những lưu ý khi cắt nẹp inox 304
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="m-brand">
+      <div class="container">
+        <div class="brand-layout">
+          <div class="brand-title title">SẢN PHẨM & THƯƠNG HIỆU</div>
+          <div class="brand-design">
+            <div class="brand-left">
+              <div class="brand-img-l">
+                <img
+                  src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/brand_bn_1.png?1681309351222"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="swiper slider-brand">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="brand-item">
+                    <div class="brand-img-small-m">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/448/001/collections/ue23.jpg?v=1646393890180"
+                        alt=""
+                      />
+                    </div>
+                    <div class="brand-name line-1">Tay nắm cửa</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item">
+                    <div class="brand-img-small-m">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/448/001/collections/uk78.jpg?v=1646393654297"
+                        alt=""
+                      />
+                    </div>
+                    <div class="brand-name line-1">Phụ kiện thông minh</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item">
+                    <div class="brand-img-small-m">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/448/001/collections/u3.jpg?v=1646393571853"
+                        alt=""
+                      />
+                    </div>
+                    <div class="brand-name line-1">Nhôm nẹp trang trí</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item">
+                    <div class="brand-img-small-m">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/448/001/collections/i7.jpg?v=1646393549950"
+                        alt=""
+                      />
+                    </div>
+                    <div class="brand-name line-1">Khóa cửa</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item">
+                    <div class="brand-img-small-m">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/448/001/collections/7.png?v=1645582626150"
+                        alt=""
+                      />
+                    </div>
+                    <div class="brand-name line-1">Led trang trí</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item">
+                    <div class="brand-img-small-m">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/448/001/collections/8.png?v=1645582641097"
+                        alt=""
+                      />
+                    </div>
+                    <div class="brand-name line-1">Chân sofa</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item">
+                    <div class="brand-img-small-m">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/448/001/collections/ytyk.jpg?v=1646393503437"
+                        alt=""
+                      />
+                    </div>
+                    <div class="brand-name line-1">Dụng cụ tiện ích</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item">
+                    <div class="brand-img-small-m">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/448/001/collections/ytyk.jpg?v=1646393503437"
+                        alt=""
+                      />
+                    </div>
+                    <div class="brand-name line-1">Sản phẩm decor</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog -->
+    <section id="blog">
+      <div class="container">
+        <div class="blog-layout">
+          <div class="blog-tit title-2 title">
+            Tin tức - chia sẽ kinh nghiệm
+          </div>
+          <div class="blog-list">
+            <div class="blog-post">
+              <div class="blog-date">
+                <p class="blog-day">06</p>
+                <p class="blog-yeah">03/2022</p>
+              </div>
+              <div class="blog-img">
+                <img
+                  src="//bizweb.dktcdn.net/thumb/large/100/448/001/articles/t6ujh56jk.jpg?v=1646543200557"
+                  alt=""
+                />
+              </div>
+              <div class="blog-desc title-2">Bản lề âm cho cửa dấu khuôn</div>
+            </div>
+            <div class="blog-post">
+              <div class="blog-date">
+                <p class="blog-day">06</p>
+                <p class="blog-yeah">03/2022</p>
+              </div>
+              <div class="blog-img">
+                <img
+                  src="//bizweb.dktcdn.net/thumb/large/100/448/001/articles/01477515-0.jpg?v=1646542993697"
+                  alt=""
+                />
+              </div>
+              <div class="blog-desc title-2">Bản lề âm cho cửa dấu khuôn</div>
+            </div>
+            <div class="blog-post">
+              <div class="blog-date">
+                <p class="blog-day">06</p>
+                <p class="blog-yeah">03/2022</p>
+              </div>
+              <div class="blog-img">
+                <img
+                  src="//bizweb.dktcdn.net/thumb/large/100/448/001/articles/ytyt.jpg?v=1646542803713"
+                  alt=""
+                />
+              </div>
+              <div class="blog-desc title-2">Bản lề âm cho cửa dấu khuôn</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-row-1">
+            <div class="footer-column footer-links">
+              <h3 class="footer-title title">Liên kết</h3>
+              <ul class="footer-list">
+                <li><a href="/" title="Trang chủ">Trang chủ</a></li>
+                <li>
+                  <a href="/collections/all" title="Sản phẩm">Sản phẩm</a>
+                </li>
+                <li>
+                  <a href="/san-pham-order" title="Nội thất ORDER"
+                    >Nội thất ORDER</a
+                  >
+                </li>
+                <li>
+                  <a href="/gioi-thieu" title="Giới thiệu">Giới thiệu</a>
+                </li>
+                <li><a href="/tin-tuc" title="Tin tức">Tin tức</a></li>
+                <li><a href="/lien-he" title="Liên hệ">Liên hệ</a></li>
+              </ul>
+            </div>
+            <div class="footer-column footer-policy">
+              <h3 class="footer-title title">Chính sách</h3>
+              <ul class="footer-list">
+                <li>
+                  <a href="/chinh-sach" title="Chính sách bảo mật"
+                    >Chính sách bảo mật</a
+                  >
+                </li>
+                <li>
+                  <a href="/chinh-sach" title="Chính sách vận chuyển"
+                    >Chính sách vận chuyển</a
+                  >
+                </li>
+                <li>
+                  <a href="/chinh-sach" title="Chính sách đổi trả"
+                    >Chính sách đổi trả</a
+                  >
+                </li>
+                <li>
+                  <a href="/dieu-khoan" title="Quy định sử dụng"
+                    >Quy định sử dụng</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-column footer-customers">
+              <h3 class="footer-title title">Khách hàng</h3>
+              <div class="swiper slider-footer">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="review">
+                      <div class="review-image">
+                        <img
+                          alt="Hương Suri"
+                          src="//bizweb.dktcdn.net/thumb/small/100/448/001/themes/851204/assets/ykkh_1.jpg?1681309351222"
+                        />
+                      </div>
+                      <div class="review-content">
+                        <p class="reviewer-name">Hương Suri</p>
+                        <p class="review-text">
+                          Mình rất ưng khi đến Shopnghemoc.com . Ở đây có rất
+                          nhiều mặt hàng phong phú, tha hồ lựa chọn. Tư vấn
+                          chuyên sâu, nhiệt tình. Chúc Shopnghemoc.com ngày càng
+                          phát triển.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="review">
+                      <div class="review-image">
+                        <img
+                          alt="Đoàn Giang Hương"
+                          src="//bizweb.dktcdn.net/thumb/small/100/448/001/themes/851204/assets/ykkh_2.jpg?1681309351222"
+                        />
+                      </div>
+                      <div class="review-content">
+                        <p class="reviewer-name">Đoàn Giang Hương</p>
+                        <p class="review-text">
+                          Shop có nhiều vật tư phụ kiện hay và hữu ích, sản phẩm
+                          luôn dẫn đầu xu thế, giá cả phải chăng.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="review">
+                      <div class="review-image">
+                        <img
+                          alt="Ngọc Anh"
+                          src="//bizweb.dktcdn.net/thumb/small/100/448/001/themes/851204/assets/ykkh_3.jpg?1681309351222"
+                        />
+                      </div>
+                      <div class="review-content">
+                        <p class="reviewer-name">Ngọc Anh</p>
+                        <p class="review-text">
+                          Mình rất ưng khi đến Shop Nghề Mộc. Ở đây có rất nhiều
+                          mặt hàng phong phú, tha hồ lựa chọn. Nhân viên chuyên
+                          nghiệp, nhiệt tình. Chúc Shop Nghề Mộc ngày càng phát
+                          triển.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-row-2">
+            <div class="footer-column footer-contact">
+              <h3 class="footer-title title">Thông tin liên hệ</h3>
+              <address>
+                <p>
+                  <b>Địa chỉ: </b>CÔNG TY CP NỘI THẤT MODULE TOÀN CẦU. - Đ/c: Số
+                  6/271 phố Bùi Xương Trạch, Thanh Xuân, Hà Nội - Mã số thuế:
+                  0107844020 - Cấp ngày 15/05/2017 tại sở Kế hoạch và đầu tư,
+                  TP. Hà nội
+                </p>
+                <p>
+                  <b>Email: </b
+                  ><a
+                    href="mailto:rembonmua@gmail.com"
+                    title="rembonmua@gmail.com"
+                    >rembonmua@gmail.com</a
+                  >
+                </p>
+                <p>
+                  <b>Hotline: </b
+                  ><a href="tel:0363842562" title="0363.842.562"
+                    >0363.842.562</a
+                  >
+                </p>
+              </address>
+            </div>
+            <div class="footer-column footer-social">
+              <h3 class="footer-title title">Kết nối với chúng tôi</h3>
+              <div class="social-links">
+                <a
+                  href="https://www.facebook.com/phukiennoithatnhaxinh"
+                  target="_blank"
+                  title="Facebook"
+                >
+                  <img
+                    src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/facebook.png?1681309351222"
+                    alt="facebook"
+                    width="32"
+                    height="32"
+                  />
+                </a>
+                <a href="#" target="_blank" title="Twitter">
+                  <img
+                    src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/twitter.png?1681309351222"
+                    alt="twitter"
+                    width="32"
+                    height="32"
+                  />
+                </a>
+                <a href="#" target="_blank" title="Instagram+">
+                  <img
+                    src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/instagram.png?1681309351222"
+                    alt="instagram"
+                    width="32"
+                    height="32"
+                  />
+                </a>
+                <a href="#" target="_blank" title="Youtube">
+                  <img
+                    src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/youtube.png?1681309351222"
+                    alt="youtube"
+                    width="32"
+                    height="32"
+                  />
+                </a>
+                <a href="#" target="_blank" title="Shopee">
+                  <img
+                    src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/shopee.png?1681309351222"
+                    alt="Shopee"
+                    width="32"
+                    height="32"
+                  />
+                </a>
+                <a href="#" target="_blank" title="Lazada">
+                  <img
+                    src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/lazada.jpg?1681309351222"
+                    alt="Lazada"
+                    width="32"
+                    height="32"
+                  />
+                </a>
+              </div>
+              <p style="margin: 10px 0 16px 0">Phương thức thanh toán</p>
+              <div class="payment-methods">
+                <img
+                  src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/payment-1.png?1681309351222"
+                  alt="payment-1"
+                />
+                <img
+                  src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/payment-2.png?1681309351222"
+                  alt="payment-2"
+                />
+                <img
+                  src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/payment-3.png?1681309351222"
+                  alt="payment-3"
+                />
+                <img
+                  src="//bizweb.dktcdn.net/100/448/001/themes/851204/assets/payment-4.png?1681309351222"
+                  alt="payment-4"
+                />
+              </div>
+            </div>
+            <div class="footer-column footer-fanpage">
+              <h3 class="footer-title title">Fanpage</h3>
+              <div class="fanpage-box">
+                <div class="fanpge-top">
+                  <div class="fanpage-avatar">
+                    <img
+                      src="https://scontent.fdad3-3.fna.fbcdn.net/v/t39.30808-1/302321162_453787310098449_4934069437583754392_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=110&ccb=1-7&_nc_sid=6738e8&_nc_ohc=0TkEKr41nJsQ7kNvgFwtWAW&_nc_ht=scontent.fdad3-3.fna&edm=ALIZrNsEAAAA&oh=00_AYD9PSkqHP0OMnXoKK_Tk9F2OgeMT4mLqf6cwgJAe153DA&oe=6693AAB3"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h3>SHOP NGHỀ MỘC</h3>
+                    <p>8.856 người theo dõi</p>
+                  </div>
+                </div>
+                <div class="fanpge-bottom"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-row">
+            <div class="footer-column">
+              <div class="copyright">
+                Bản quyền thuộc về Shop Nghề Mộc. Cung cấp bởi
+                <a
+                  href="https://www.sapo.vn"
+                  title="Sapo"
+                  target="_blank"
+                  rel="nofollow noopener"
+                  >Sapo</a
+                >.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- menu mobile -->
+    <div class="menu">
+      <div class="menu-list">
+        <div class="menu-item">
+          <div class="menu-icon">
+            <img src="./assets/images/icons/home.png" alt="" />
+          </div>
+          <a href="">Trang chủ</a>
+        </div>
+        <div class="menu-item">
+          <div class="menu-icon">
+            <img src="./assets/images/icons/category.png" alt="" />
+          </div>
+          <a href="">Danh mục</a>
+        </div>
+        <div class="menu-item">
+          <div class="menu-icon">
+            <img src="./assets/images/icons/phone-call.png" alt="" />
+          </div>
+          <a href="">Liên hệ</a>
+        </div>
+        <div class="menu-item">
+          <div class="menu-icon">
+            <img src="./assets/images/icons/user.png" alt="" />
+          </div>
+          <a href="">Tài khoản</a>
+        </div>
+        <div class="menu-item">
+          <div class="menu-icon">
+            <img src="./assets/images/icons/cart.png" alt="" />
+          </div>
+          <a href="">Giỏ hàng</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ion-Icon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+  </body>
+</html>
